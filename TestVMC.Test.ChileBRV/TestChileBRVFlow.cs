@@ -17,15 +17,25 @@ namespace TestVMC.Test.ChileBRV
         private string identifier = "";
         private IMapper _mapper;
 
-        [SetUp]
-        public void Setup()
+        public Tests()
         {
             identifier = faker.Random.AlphaNumeric(10);
         }
 
-        [Test]
-        public void Test1()
+        [SetUp]
+        public void Setup()
         {
+            
+        }
+
+        [Test]
+        public void contactInfomation()
+        {
+            //Arrange
+
+            //Act
+
+            //Assert
             Assert.Pass();
         }
     }
