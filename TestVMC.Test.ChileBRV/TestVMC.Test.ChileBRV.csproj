@@ -1,11 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-	
+
 	<ItemGroup>
-	  <PackageReference Include="Bogus" Version="35.4.1" />
-	  <PackageReference Include="NPOI" Version="2.6.2" />
-	</ItemGroup>
-	
-	<ItemGroup>
+		<ProjectReference Include="..\TestVMC.Utilities.Common\TestVMC.Utilities.Common.csproj" />
 		<ProjectReference Include="C:\Users\juan.plaza\source\repos\ValueMyCarBackendNewRepo\ValueMyCar.Services.ApiFields\ValueMyCar.Services.ApiFields.csproj" />
 		<ProjectReference Include="C:\Users\juan.plaza\source\repos\ValueMyCarBackendNewRepo\ValueMyCar.Services.ApiTemporaryData\ValueMyCar.Services.ApiTemporaryData.csproj" />
 		<ProjectReference Include="C:\Users\juan.plaza\source\repos\ValueMyCarBackendNewRepo\ValueMyCar.Services.ApiVehicleInformation\ValueMyCar.Services.ApiVehicleInformation.csproj" />
@@ -16,17 +12,22 @@
 		<ProjectReference Include="C:\Users\juan.plaza\source\repos\ValueMyCarBackendNewRepo\ValueMyCar.Services.ApiBusinessRule\ValueMyCar.Services.ApiBusinessRule.csproj" />
 		<ProjectReference Include="C:\Users\juan.plaza\source\repos\ValueMyCarBackendNewRepo\ValueMyCar.Services.ApiAdminSteps\ValueMyCar.Services.ApiAdminSteps.csproj" />
 		<ProjectReference Include="C:\Users\juan.plaza\source\repos\ValueMyCarBackendNewRepo\ValueMyCar.Services.ApiAdminFields\ValueMyCar.Services.ApiAdminFields.csproj" />
-		
-	</ItemGroup>
-	
+	</ItemGroup>	
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
   </PropertyGroup>
 
-	<ItemGroup>
-		<Using Include="System.Console" Static="true"/>
-	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.3.0" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.5.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+  </ItemGroup>
 
 </Project>

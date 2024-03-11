@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.AustraliaSubaru\\TestVMC.Test.AustraliaSubaru.csproj": {}
+    "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.ChileBRV\\TestVMC.Test.ChileBRV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.AustraliaSubaru\\TestVMC.Test.AustraliaSubaru.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.ChileBRV\\TestVMC.Test.ChileBRV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.AustraliaSubaru\\TestVMC.Test.AustraliaSubaru.csproj",
-        "projectName": "TestVMC.Test.AustraliaSubaru",
-        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.AustraliaSubaru\\TestVMC.Test.AustraliaSubaru.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.ChileBRV\\TestVMC.Test.ChileBRV.csproj",
+        "projectName": "TestVMC.Test.ChileBRV",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.ChileBRV\\TestVMC.Test.ChileBRV.csproj",
         "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.AustraliaSubaru\\obj\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.ChileBRV\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -80,10 +80,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Bogus": {
-              "target": "Package",
-              "version": "[35.4.1, )"
-            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.3.2, )"
@@ -94,11 +90,11 @@
             },
             "NUnit.Analyzers": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[3.5.0, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[4.3.0, )"
             },
             "coverlet.collector": {
               "target": "Package",

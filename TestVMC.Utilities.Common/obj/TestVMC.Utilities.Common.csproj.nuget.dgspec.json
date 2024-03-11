@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jaime.Gonzalez\\Desktop\\Apps and Services with .NET 7\\Unit and integration test\\UnitTestVMC\\TestVMC.Utilities.Common\\TestVMC.Utilities.Common.csproj": {}
+    "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Utilities.Common\\TestVMC.Utilities.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jaime.Gonzalez\\Desktop\\Apps and Services with .NET 7\\Unit and integration test\\UnitTestVMC\\TestVMC.Utilities.Common\\TestVMC.Utilities.Common.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Utilities.Common\\TestVMC.Utilities.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\Desktop\\Apps and Services with .NET 7\\Unit and integration test\\UnitTestVMC\\TestVMC.Utilities.Common\\TestVMC.Utilities.Common.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Utilities.Common\\TestVMC.Utilities.Common.csproj",
         "projectName": "TestVMC.Utilities.Common",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\Desktop\\Apps and Services with .NET 7\\Unit and integration test\\UnitTestVMC\\TestVMC.Utilities.Common\\TestVMC.Utilities.Common.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\Desktop\\Apps and Services with .NET 7\\Unit and integration test\\UnitTestVMC\\TestVMC.Utilities.Common\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Utilities.Common\\TestVMC.Utilities.Common.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Utilities.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,42 +27,42 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminFields\\ValueMyCar.Services.ApiAdminFields.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminFields\\ValueMyCar.Services.ApiAdminFields.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminFields\\ValueMyCar.Services.ApiAdminFields.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminFields\\ValueMyCar.Services.ApiAdminFields.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminSteps\\ValueMyCar.Services.ApiAdminSteps.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminSteps\\ValueMyCar.Services.ApiAdminSteps.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminSteps\\ValueMyCar.Services.ApiAdminSteps.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminSteps\\ValueMyCar.Services.ApiAdminSteps.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiBusinessRule\\ValueMyCar.Services.ApiBusinessRule.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiBusinessRule\\ValueMyCar.Services.ApiBusinessRule.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiBusinessRule\\ValueMyCar.Services.ApiBusinessRule.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiBusinessRule\\ValueMyCar.Services.ApiBusinessRule.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiFields\\ValueMyCar.Services.ApiFields.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiFields\\ValueMyCar.Services.ApiFields.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiFields\\ValueMyCar.Services.ApiFields.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiFields\\ValueMyCar.Services.ApiFields.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiOverview\\ValueMyCar.Services.ApiOverview.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiOverview\\ValueMyCar.Services.ApiOverview.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiOverview\\ValueMyCar.Services.ApiOverview.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiOverview\\ValueMyCar.Services.ApiOverview.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiPriceEngine\\ValueMyCar.Services.ApiPriceEngine.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiPriceEngine\\ValueMyCar.Services.ApiPriceEngine.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiPriceEngine\\ValueMyCar.Services.ApiPriceEngine.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiPriceEngine\\ValueMyCar.Services.ApiPriceEngine.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiTemporaryData\\ValueMyCar.Services.ApiTemporaryData.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiTemporaryData\\ValueMyCar.Services.ApiTemporaryData.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiTemporaryData\\ValueMyCar.Services.ApiTemporaryData.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiTemporaryData\\ValueMyCar.Services.ApiTemporaryData.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsersManagement\\ValueMyCar.Services.ApiUsersManagement.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsersManagement\\ValueMyCar.Services.ApiUsersManagement.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsersManagement\\ValueMyCar.Services.ApiUsersManagement.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsersManagement\\ValueMyCar.Services.ApiUsersManagement.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsers\\ValueMyCar.Services.ApiUsers.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsers\\ValueMyCar.Services.ApiUsers.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsers\\ValueMyCar.Services.ApiUsers.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsers\\ValueMyCar.Services.ApiUsers.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiVehicleInformation\\ValueMyCar.Services.ApiVehicleInformation.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiVehicleInformation\\ValueMyCar.Services.ApiVehicleInformation.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiVehicleInformation\\ValueMyCar.Services.ApiVehicleInformation.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiVehicleInformation\\ValueMyCar.Services.ApiVehicleInformation.csproj"
               }
             }
           }
@@ -102,24 +102,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj",
         "projectName": "ValueMyCar.Application.DTO",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -129,15 +129,15 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
               }
             }
           }
@@ -173,24 +173,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj",
         "projectName": "ValueMyCar.Application.Interface",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -200,21 +200,21 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj"
               }
             }
           }
@@ -250,24 +250,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj",
         "projectName": "ValueMyCar.Application.Main",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -277,27 +277,27 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Validator\\ValueMyCar.Application.Validator.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Validator\\ValueMyCar.Application.Validator.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Validator\\ValueMyCar.Application.Validator.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Validator\\ValueMyCar.Application.Validator.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj"
               }
             }
           }
@@ -357,24 +357,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Validator\\ValueMyCar.Application.Validator.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Validator\\ValueMyCar.Application.Validator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Validator\\ValueMyCar.Application.Validator.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Validator\\ValueMyCar.Application.Validator.csproj",
         "projectName": "ValueMyCar.Application.Validator",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Validator\\ValueMyCar.Application.Validator.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Validator\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Validator\\ValueMyCar.Application.Validator.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Validator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -384,15 +384,15 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
               }
             }
           }
@@ -440,24 +440,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj",
         "projectName": "ValueMyCar.Domain.Core",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -467,24 +467,24 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj"
               }
             }
           }
@@ -520,24 +520,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj",
         "projectName": "ValueMyCar.Domain.Entity",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -547,7 +547,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -587,24 +587,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj",
         "projectName": "ValueMyCar.Domain.Interface",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -614,21 +614,21 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj"
               }
             }
           }
@@ -668,24 +668,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj",
         "projectName": "ValueMyCar.Infraestructure.Data",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -695,15 +695,15 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
               }
             }
           }
@@ -759,24 +759,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj",
         "projectName": "ValueMyCar.Infraestructure.Interface",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -786,15 +786,15 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
               }
             }
           }
@@ -834,24 +834,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj",
         "projectName": "ValueMyCar.Infraestructure.Repository",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -861,18 +861,18 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
               }
             }
           }
@@ -908,24 +908,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminFields\\ValueMyCar.Services.ApiAdminFields.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminFields\\ValueMyCar.Services.ApiAdminFields.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminFields\\ValueMyCar.Services.ApiAdminFields.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminFields\\ValueMyCar.Services.ApiAdminFields.csproj",
         "projectName": "ValueMyCar.Services.ApiAdminFields",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminFields\\ValueMyCar.Services.ApiAdminFields.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminFields\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminFields\\ValueMyCar.Services.ApiAdminFields.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminFields\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -935,39 +935,39 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
               }
             }
           }
@@ -1022,24 +1022,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminSteps\\ValueMyCar.Services.ApiAdminSteps.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminSteps\\ValueMyCar.Services.ApiAdminSteps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminSteps\\ValueMyCar.Services.ApiAdminSteps.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminSteps\\ValueMyCar.Services.ApiAdminSteps.csproj",
         "projectName": "ValueMyCar.Services.ApiAdminSteps",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminSteps\\ValueMyCar.Services.ApiAdminSteps.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiAdminSteps\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminSteps\\ValueMyCar.Services.ApiAdminSteps.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiAdminSteps\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1049,42 +1049,42 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
               }
             }
           }
@@ -1145,24 +1145,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiBusinessRule\\ValueMyCar.Services.ApiBusinessRule.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiBusinessRule\\ValueMyCar.Services.ApiBusinessRule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiBusinessRule\\ValueMyCar.Services.ApiBusinessRule.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiBusinessRule\\ValueMyCar.Services.ApiBusinessRule.csproj",
         "projectName": "ValueMyCar.Services.ApiBusinessRule",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiBusinessRule\\ValueMyCar.Services.ApiBusinessRule.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiBusinessRule\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiBusinessRule\\ValueMyCar.Services.ApiBusinessRule.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiBusinessRule\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1172,27 +1172,27 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
               }
             }
           }
@@ -1255,24 +1255,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiFields\\ValueMyCar.Services.ApiFields.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiFields\\ValueMyCar.Services.ApiFields.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiFields\\ValueMyCar.Services.ApiFields.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiFields\\ValueMyCar.Services.ApiFields.csproj",
         "projectName": "ValueMyCar.Services.ApiFields",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiFields\\ValueMyCar.Services.ApiFields.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiFields\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiFields\\ValueMyCar.Services.ApiFields.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiFields\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1282,39 +1282,39 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
               }
             }
           }
@@ -1391,24 +1391,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiOverview\\ValueMyCar.Services.ApiOverview.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiOverview\\ValueMyCar.Services.ApiOverview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiOverview\\ValueMyCar.Services.ApiOverview.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiOverview\\ValueMyCar.Services.ApiOverview.csproj",
         "projectName": "ValueMyCar.Services.ApiOverview",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiOverview\\ValueMyCar.Services.ApiOverview.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiOverview\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiOverview\\ValueMyCar.Services.ApiOverview.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiOverview\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1418,33 +1418,33 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
               }
             }
           }
@@ -1503,24 +1503,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiPriceEngine\\ValueMyCar.Services.ApiPriceEngine.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiPriceEngine\\ValueMyCar.Services.ApiPriceEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiPriceEngine\\ValueMyCar.Services.ApiPriceEngine.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiPriceEngine\\ValueMyCar.Services.ApiPriceEngine.csproj",
         "projectName": "ValueMyCar.Services.ApiPriceEngine",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiPriceEngine\\ValueMyCar.Services.ApiPriceEngine.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiPriceEngine\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiPriceEngine\\ValueMyCar.Services.ApiPriceEngine.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiPriceEngine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1530,36 +1530,36 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
               }
             }
           }
@@ -1622,24 +1622,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiTemporaryData\\ValueMyCar.Services.ApiTemporaryData.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiTemporaryData\\ValueMyCar.Services.ApiTemporaryData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiTemporaryData\\ValueMyCar.Services.ApiTemporaryData.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiTemporaryData\\ValueMyCar.Services.ApiTemporaryData.csproj",
         "projectName": "ValueMyCar.Services.ApiTemporaryData",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiTemporaryData\\ValueMyCar.Services.ApiTemporaryData.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiTemporaryData\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiTemporaryData\\ValueMyCar.Services.ApiTemporaryData.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiTemporaryData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1649,39 +1649,39 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
               }
             }
           }
@@ -1744,24 +1744,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsersManagement\\ValueMyCar.Services.ApiUsersManagement.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsersManagement\\ValueMyCar.Services.ApiUsersManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsersManagement\\ValueMyCar.Services.ApiUsersManagement.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsersManagement\\ValueMyCar.Services.ApiUsersManagement.csproj",
         "projectName": "ValueMyCar.Services.ApiUsersManagement",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsersManagement\\ValueMyCar.Services.ApiUsersManagement.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsersManagement\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsersManagement\\ValueMyCar.Services.ApiUsersManagement.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsersManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1771,42 +1771,42 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
               }
             }
           }
@@ -1853,24 +1853,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsers\\ValueMyCar.Services.ApiUsers.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsers\\ValueMyCar.Services.ApiUsers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsers\\ValueMyCar.Services.ApiUsers.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsers\\ValueMyCar.Services.ApiUsers.csproj",
         "projectName": "ValueMyCar.Services.ApiUsers",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsers\\ValueMyCar.Services.ApiUsers.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiUsers\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsers\\ValueMyCar.Services.ApiUsers.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiUsers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1880,39 +1880,39 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
               }
             }
           }
@@ -1959,24 +1959,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiVehicleInformation\\ValueMyCar.Services.ApiVehicleInformation.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiVehicleInformation\\ValueMyCar.Services.ApiVehicleInformation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiVehicleInformation\\ValueMyCar.Services.ApiVehicleInformation.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiVehicleInformation\\ValueMyCar.Services.ApiVehicleInformation.csproj",
         "projectName": "ValueMyCar.Services.ApiVehicleInformation",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiVehicleInformation\\ValueMyCar.Services.ApiVehicleInformation.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Services.ApiVehicleInformation\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiVehicleInformation\\ValueMyCar.Services.ApiVehicleInformation.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Services.ApiVehicleInformation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1986,39 +1986,39 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Interface\\ValueMyCar.Application.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.Main\\ValueMyCar.Application.Main.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Core\\ValueMyCar.Domain.Core.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Interface\\ValueMyCar.Domain.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Data\\ValueMyCar.Infraestructure.Data.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Interface\\ValueMyCar.Infraestructure.Interface.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Infraestructure.Repository\\ValueMyCar.Infraestructure.Repository.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj"
               }
             }
           }
@@ -2073,24 +2073,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj",
         "projectName": "ValueMyCar.Transversal.Common",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Common\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\ValueMyCar.Transversal.Common.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -2100,7 +2100,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -2144,24 +2144,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
+    "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj",
+        "projectUniqueName": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj",
         "projectName": "ValueMyCar.Transversal.Mapper",
-        "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj",
-        "packagesPath": "C:\\Users\\Jaime.Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Transversal.Mapper\\obj\\",
+        "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\ValueMyCar.Transversal.Mapper.csproj",
+        "packagesPath": "C:\\Users\\juan.plaza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Transversal.Mapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaime.Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juan.plaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -2171,18 +2171,18 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Jaime.Gonzalez\\source\\ComponentSaml4.8": {},
+          "C:\\Users\\juan.plaza\\source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Application.DTO\\ValueMyCar.Application.DTO.csproj"
               },
-              "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Jaime.Gonzalez\\source\\repos\\ValueMyCarBackend\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
+              "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\juan.plaza\\source\\repos\\ValueMyCarBackendNewRepo\\ValueMyCar.Domain.Entity\\ValueMyCar.Domain.Entity.csproj"
               }
             }
           }
@@ -2230,7 +2230,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

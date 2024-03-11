@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestVMC.Utilities.Common", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D29ED305-85E1-42EB-BD13-D4DD98CD2AE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestVMC.Test.AustraliaSubaru", "TestVMC.Test.AustraliaSubaru\TestVMC.Test.AustraliaSubaru.csproj", "{340541BB-B288-416C-9637-1AF9C9A50DC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestVMC.Test.AustraliaSubaru", "TestVMC.Test.AustraliaSubaru\TestVMC.Test.AustraliaSubaru.csproj", "{340541BB-B288-416C-9637-1AF9C9A50DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestVMC.Test.ChileBRV", "TestVMC.Test.ChileBRV\TestVMC.Test.ChileBRV.csproj", "{BAD9EBF2-3941-4E6E-B5EE-E8AE20BB12F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{340541BB-B288-416C-9637-1AF9C9A50DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{340541BB-B288-416C-9637-1AF9C9A50DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{340541BB-B288-416C-9637-1AF9C9A50DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD9EBF2-3941-4E6E-B5EE-E8AE20BB12F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD9EBF2-3941-4E6E-B5EE-E8AE20BB12F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD9EBF2-3941-4E6E-B5EE-E8AE20BB12F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD9EBF2-3941-4E6E-B5EE-E8AE20BB12F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{56F8C011-84E8-4293-8ABF-8D571CD44567} = {2589CE90-428F-4695-9582-E9CEDE5FC5C2}
 		{340541BB-B288-416C-9637-1AF9C9A50DC2} = {D29ED305-85E1-42EB-BD13-D4DD98CD2AE5}
+		{BAD9EBF2-3941-4E6E-B5EE-E8AE20BB12F9} = {D29ED305-85E1-42EB-BD13-D4DD98CD2AE5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B522996-0142-4B1C-9365-894DDD60854B}

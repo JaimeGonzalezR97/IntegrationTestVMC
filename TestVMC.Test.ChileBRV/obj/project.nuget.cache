@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m+51C7OcFzm0L7GFkiBR+sBgO6Hch75yH2oabl2+LrAnUobkS140mxe7Y5BcqOnxnEF9YoM+3iceHg+rCqXLEQ==",
+  "dgSpecHash": "qSwl8sY+RiRJdvph2l4GcimOhDqHiBsZgYginuxTaElKOPd+CX8BBX95ZH2OEcIzu+f/dJC5UeMwlNVZB0NpkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.AustraliaSubaru\\TestVMC.Test.AustraliaSubaru.csproj",
+  "projectFilePath": "C:\\Users\\juan.plaza\\source\\repos\\IntegrationTestVMC\\TestVMC.Test.ChileBRV\\TestVMC.Test.ChileBRV.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juan.plaza\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\juan.plaza\\.nuget\\packages\\automapper.collection\\9.0.0\\automapper.collection.9.0.0.nupkg.sha512",
@@ -126,8 +126,8 @@
     "C:\\Users\\juan.plaza\\.nuget\\packages\\nuget.protocol\\6.3.1\\nuget.protocol.6.3.1.nupkg.sha512",
     "C:\\Users\\juan.plaza\\.nuget\\packages\\nuget.versioning\\6.3.1\\nuget.versioning.6.3.1.nupkg.sha512",
     "C:\\Users\\juan.plaza\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
-    "C:\\Users\\juan.plaza\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
-    "C:\\Users\\juan.plaza\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
+    "C:\\Users\\juan.plaza\\.nuget\\packages\\nunit.analyzers\\3.5.0\\nunit.analyzers.3.5.0.nupkg.sha512",
+    "C:\\Users\\juan.plaza\\.nuget\\packages\\nunit3testadapter\\4.3.0\\nunit3testadapter.4.3.0.nupkg.sha512",
     "C:\\Users\\juan.plaza\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512",
     "C:\\Users\\juan.plaza\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\juan.plaza\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
