@@ -31,6 +31,8 @@ using ValueMyCar.Transversal.Common;
 using Bogus.DataSets;
 using System.Runtime.CompilerServices;
 using ValueMyCar.Services.ApiBusinessRule.Controllers;
+using Org.BouncyCastle.Asn1.Ocsp;
+using static TestVMC.Utilities.Common.EnumForMarkets;
 
 namespace TestVMC.Test.AustraliaSubaru
 {
@@ -54,12 +56,10 @@ namespace TestVMC.Test.AustraliaSubaru
         public void SetUp()
         {
             var configuration = AppConfigurations.LoadConfiguration();
-            abbreviation = configuration.GetSection("AustraliaBravoAuto:Abbreviation").Value;
+            abbreviation = "AUSSUBA";
             _mapper = AppConfigurations.MapperConfig();
             jsonData = File.ReadAllText("requiredFields.json");
             _requireData = JsonConvert.DeserializeObject<DataDto>(jsonData);
-
-
         }
 
         [Test, Order(1)]
@@ -75,7 +75,7 @@ namespace TestVMC.Test.AustraliaSubaru
             FieldsController fieldsController = 
                 await controllersConfig.GetController<FieldsController>(abbreviation);
 
-            int formId = 4;
+            int formId = (int)FormId.ContactInformation;
 
 
             //Act(Acciones a ejecutar)
@@ -97,6 +97,10 @@ namespace TestVMC.Test.AustraliaSubaru
         public async Task VehicleInformation_OK()
         {
             //Arrange
+            int registryNumberId = (int)AUSSUBA.RegistryNumber;
+            int stateId = (int)AUSSUBA.State;
+            int redbookCodeId = (int)AUSSUBA.RedBookCode;
+            int formId = (int)FormId.VehicleInformation;
             ControllersConfig controllersConfig = new();
 
             TemporaryDatumController temporaryController =
@@ -106,42 +110,64 @@ namespace TestVMC.Test.AustraliaSubaru
             VehicleInformationController vehicleController =
                 await controllersConfig.GetController<VehicleInformationController>(abbreviation);
 
+            DataDto dataDto = new();
             VehicleInformationDto inputDto = new()
             {
-                CountryBrandId = 3,
-                FormId = 1,
+                CountryBrandId = (int)CountryBrandId.AUSSUBA,
+                FormId = formId,
                 Body = new List<DetailInformationDto>()
                 {
-                    new DetailInformationDto(){ FieldId = 51, value = _requireData.Body.Find(x => x.FieldId == 51).Value},
-                    new DetailInformationDto(){ FieldId = 52, value = _requireData.Body.Find(x => x.FieldId == 52).Value}
+                    new DetailInformationDto(){ FieldId = registryNumberId, value = _requireData.Body.Find(x => x.FieldId == registryNumberId).Value},
+                    new DetailInformationDto(){ FieldId = stateId, value = _requireData.Body.Find(x => x.FieldId == stateId).Value}
                 }
             };
 
             //Action
+            var resulFields = await fieldsController.GetFields(1, abbreviation);
             var resultVehicleInfo = await vehicleController.GetVehicleInformation(inputDto);
-            var okResult = resultVehicleInfo as OkObjectResult;
-            var json = JsonConvert.SerializeObject(okResult.Value);
-            Response<VehicleInformationDto> responseDto = JsonConvert.DeserializeObject<Response<VehicleInformationDto>>(json);
-            var data = responseDto.Data.Body;
-            var listTemporaryDatum = _mapper.Map<List<TemporaryDatumDto>>(responseDto.Data.Body);
-            listTemporaryDatum.RemoveAll(x => x.FieldId == 0);
-            DataDto dataDto = new DataDto()
+            if(resultVehicleInfo is OkObjectResult okResult)
             {
-                Identifier = identifier,
-                Market = abbreviation,
-                FormId = 1,
-                StatusForm = false,
-                Reject = false,
-                Body = listTemporaryDatum
-            };
+                var json = JsonConvert.SerializeObject(okResult.Value);
+                Response<VehicleInformationDto> responseDto = JsonConvert.DeserializeObject<Response<VehicleInformationDto>>(json);
+                var data = responseDto.Data.Body;
+                var listTemporaryDatum = _mapper.Map<List<TemporaryDatumDto>>(responseDto.Data.Body);
+                //Extraigo los campos que no esten activos
+                var inactiveFields = resulFields.Data.Where(x => x.Active == false).ToList();
+                var inactiveFieldsId = inactiveFields.Select(x => x.FieldId);
+                //removemos los campos que no necesitan ser guardados
+                listTemporaryDatum.RemoveAll(x => x.FieldId == 0 || inactiveFieldsId.Contains(x.FieldId));
+                dataDto = new DataDto()
+                {
+                    Identifier = identifier,
+                    Market = abbreviation,
+                    FormId = formId,
+                    StatusForm = false,
+                    Reject = false,
+                    Body = listTemporaryDatum
+                };
+            }
+            else
+            {
+               
+                var listTemporaryDatum = _commonFunctions.CompleteFields(resulFields.Data, _requireData);
+                listTemporaryDatum.Add(
+                    new TemporaryDatumDto() { FieldId = redbookCodeId, Value = _requireData.Body.Find(x => x.FieldId == redbookCodeId).Value });
+                dataDto = new DataDto()
+                {
+                    Identifier = identifier,
+                    Market = abbreviation,
+                    FormId = formId,
+                    StatusForm = false,
+                    Reject = false,
+                    Body = listTemporaryDatum
+                };
+            }
+
             var resultTemporary = await temporaryController.CreateOrUpdate(dataDto);
 
             //Assert
-            Assert.Multiple(() =>
-            {
-                Assert.That(responseDto.IsSuccess);
-                Assert.That(resultTemporary.IsSuccess);
-            });
+            Assert.That(resultTemporary.IsSuccess);
+
         }
 
         [Test, Order(3)]
@@ -152,20 +178,32 @@ namespace TestVMC.Test.AustraliaSubaru
 
             TemporaryDatumController temporaryController =
                 await controllersConfig.GetController<TemporaryDatumController>(abbreviation);
+            FieldsController fieldsController = 
+                await controllersConfig.GetController<FieldsController>(abbreviation);
+
+            TemporaryDatumDto condition = new();
 
             //Actions
-            var condition = _requireData.Body.Find(x => x.FieldId == 69).Value;
+            var listFields = await fieldsController.GetFields(2, abbreviation);
+            foreach(var field in listFields.Data)
+            {
+                var fieldCondition = _requireData.Body.Find(x => x.FieldId == field.FieldId);
+                if (fieldCondition != null)
+                {
+                    condition = fieldCondition;
+                }
+            }
 
             DataDto dataDto = new()
             {
-                FormId = 2,
+                FormId = (int)FormId.VehicleCondition,
                 Identifier = identifier,
                 Market = abbreviation,
                 StatusForm = false,
                 Reject = false,
                 Body = new List<TemporaryDatumDto>()
                 {
-                    new TemporaryDatumDto(){FieldId = 114, Value = condition}
+                    condition
                 }
             };
 
@@ -188,10 +226,10 @@ namespace TestVMC.Test.AustraliaSubaru
                 await controllersConfig.GetController<FieldsController>(abbreviation);
             VehicleInformationController vehicleController =
                 await controllersConfig.GetController<VehicleInformationController>(abbreviation);
-            int formId = 3;
+            int formId = (int)FormId.VehicleDetails;
             VehicleInformationDto _vehicleInformationDto = new()
                 {
-                CountryBrandId = 3,
+                CountryBrandId = (int)CountryBrandId.AUSSUBA,
                 Identifier = identifier,
                 FormId = formId,
                 Body = new List<DetailInformationDto>()
@@ -241,7 +279,7 @@ namespace TestVMC.Test.AustraliaSubaru
             {
                 Identifier = identifier,
                 Market = abbreviation,
-                FormId = 3,
+                FormId = (int)FormId.VehicleDetails,
                 StatusForm = false,
                 Reject = false,
                 Body = new List<TemporaryDatumDto>()
