@@ -35,6 +35,7 @@ using Org.BouncyCastle.Asn1.Ocsp;
 using static TestVMC.Utilities.Common.EnumForMarkets;
 using TestVMC.Utilities.Common.Models;
 using System.Diagnostics;
+using NPOI.OpenXmlFormats.Spreadsheet;
 
 namespace TestVMC.Test.AustraliaSubaru
 {
@@ -45,6 +46,7 @@ namespace TestVMC.Test.AustraliaSubaru
         private CommonFunctions _commonFunctions = new();
         private TestDataDto _testDataDto = new();
         private TestStatusDto _testStatusDto = new();
+        TemporaryDatumDto _condition = new();
         private string jsonData = "";
         private string abbreviation = "";
         private string identifier = "";
@@ -60,7 +62,7 @@ namespace TestVMC.Test.AustraliaSubaru
         public void SetUp()
         {
             var configuration = AppConfigurations.LoadConfiguration();
-            abbreviation = "AUSSUBA";
+            abbreviation = "AUSBRV";
             _mapper = AppConfigurations.MapperConfig();
             jsonData = File.ReadAllText("requiredFields.json");
             _requireData = JsonConvert.DeserializeObject<DataDto>(jsonData);
@@ -74,9 +76,9 @@ namespace TestVMC.Test.AustraliaSubaru
             ControllersConfig controllersConfig = new();
             List<TemporaryDatumDto> listTemporaryDatum = new();
 
-            TemporaryDatumController temporaryController = 
+            TemporaryDatumController temporaryController =
                 await controllersConfig.GetController<TemporaryDatumController>(abbreviation);
-            FieldsController fieldsController = 
+            FieldsController fieldsController =
                 await controllersConfig.GetController<FieldsController>(abbreviation);
 
             int formId = (int)FormId.ContactInformation;
@@ -105,9 +107,9 @@ namespace TestVMC.Test.AustraliaSubaru
         public async Task VehicleInformation_OK()
         {
             //Arrange
-            int registryNumberId = (int)AUSSUBA.RegistryNumber;
-            int stateId = (int)AUSSUBA.State;
-            int redbookCodeId = (int)AUSSUBA.RedBookCode;
+            int registryNumberId = (int)AUSBRV.RegistryNumber;
+            int stateId = (int)AUSBRV.State;
+            int redbookCodeId = (int)AUSBRV.RedBookCode;
             int formId = (int)FormId.VehicleInformation;
             ControllersConfig controllersConfig = new();
 
@@ -121,7 +123,7 @@ namespace TestVMC.Test.AustraliaSubaru
             DataDto dataDto = new();
             VehicleInformationDto inputDto = new()
             {
-                CountryBrandId = (int)CountryBrandId.AUSSUBA,
+                CountryBrandId = (int)CountryBrandId.AUSBRV,
                 FormId = formId,
                 Body = new List<DetailInformationDto>()
                 {
@@ -133,7 +135,7 @@ namespace TestVMC.Test.AustraliaSubaru
             //Action
             var resulFields = await fieldsController.GetFields(1, abbreviation);
             var resultVehicleInfo = await vehicleController.GetVehicleInformation(inputDto);
-            if(resultVehicleInfo is OkObjectResult okResult)
+            if (resultVehicleInfo is OkObjectResult okResult)
             {
                 var json = JsonConvert.SerializeObject(okResult.Value);
                 Response<VehicleInformationDto> responseDto = JsonConvert.DeserializeObject<Response<VehicleInformationDto>>(json);
@@ -156,7 +158,7 @@ namespace TestVMC.Test.AustraliaSubaru
             }
             else
             {
-               
+
                 var listTemporaryDatum = _commonFunctions.CompleteFields(resulFields.Data, _requireData);
                 listTemporaryDatum.Add(
                     new TemporaryDatumDto() { FieldId = redbookCodeId, Value = _requireData.Body.Find(x => x.FieldId == redbookCodeId).Value });
@@ -190,19 +192,19 @@ namespace TestVMC.Test.AustraliaSubaru
 
             TemporaryDatumController temporaryController =
                 await controllersConfig.GetController<TemporaryDatumController>(abbreviation);
-            FieldsController fieldsController = 
+            FieldsController fieldsController =
                 await controllersConfig.GetController<FieldsController>(abbreviation);
 
-            TemporaryDatumDto condition = new();
+            
 
             //Actions
             var listFields = await fieldsController.GetFields(2, abbreviation);
-            foreach(var field in listFields.Data)
+            foreach (var field in listFields.Data)
             {
                 var fieldCondition = _requireData.Body.Find(x => x.FieldId == field.FieldId);
                 if (fieldCondition != null)
                 {
-                    condition = fieldCondition;
+                    _condition = fieldCondition;
                 }
             }
 
@@ -215,7 +217,7 @@ namespace TestVMC.Test.AustraliaSubaru
                 Reject = false,
                 Body = new List<TemporaryDatumDto>()
                 {
-                    condition
+                    _condition
                 }
             };
 
@@ -244,12 +246,25 @@ namespace TestVMC.Test.AustraliaSubaru
                 await controllersConfig.GetController<VehicleInformationController>(abbreviation);
             int formId = (int)FormId.VehicleDetails;
             VehicleInformationDto _vehicleInformationDto = new()
-                {
-                CountryBrandId = (int)CountryBrandId.AUSSUBA,
+            {
+                CountryBrandId = (int)CountryBrandId.AUSBRV,
                 Identifier = identifier,
                 FormId = formId,
                 Body = new List<DetailInformationDto>()
-                };
+                {
+                   new DetailInformationDto
+                   {
+                       FieldId = (int)AUSBRV.Mileage,
+                       value = _requireData.Body.Find(x => x.FieldId == (int)AUSBRV.Mileage).Value
+                   },
+                   new DetailInformationDto
+                   {
+                       FieldId = _condition.FieldId,
+                       value = _condition.Value
+                   },
+
+                }
+            };
 
 
             //Actions

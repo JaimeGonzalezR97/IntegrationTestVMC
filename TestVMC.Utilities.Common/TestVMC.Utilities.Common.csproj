@@ -26,7 +26,7 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<Using Include="System.Console" Static="true"/>
+		<Using Include="System.Console" Static="true" />
 	</ItemGroup>
 
 </Project>

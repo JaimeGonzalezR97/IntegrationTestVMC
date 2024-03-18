@@ -33,6 +33,8 @@ using System.Runtime.CompilerServices;
 using ValueMyCar.Services.ApiBusinessRule.Controllers;
 using Org.BouncyCastle.Asn1.Ocsp;
 using static TestVMC.Utilities.Common.EnumForMarkets;
+using TestVMC.Utilities.Common.Models;
+using System.Diagnostics;
 
 namespace TestVMC.Test.AustraliaSubaru
 {
@@ -41,6 +43,8 @@ namespace TestVMC.Test.AustraliaSubaru
         Faker _faker = new Faker();
         private DataDto _requireData = new();
         private CommonFunctions _commonFunctions = new();
+        private TestDataDto _testDataDto = new();
+        private TestStatusDto _testStatusDto = new();
         private string jsonData = "";
         private string abbreviation = "";
         private string identifier = "";
@@ -87,6 +91,10 @@ namespace TestVMC.Test.AustraliaSubaru
             formData.StatusForm = false;
             formData.Identifier = identifier;
             var resultTemporary = await temporaryController.CreateOrUpdate(formData);
+
+            //Add info for logs
+            _testDataDto.ContactInformation = listTemporaryDatum;
+            _testStatusDto.ContactInformation = String.Concat("Message: ",resultTemporary.Message, " Errors: ", resultTemporary.Errors);
 
             //Asserts
             Assert.IsTrue(resultTemporary.IsSuccess);
@@ -165,6 +173,10 @@ namespace TestVMC.Test.AustraliaSubaru
 
             var resultTemporary = await temporaryController.CreateOrUpdate(dataDto);
 
+            //Add info for logs
+            _testDataDto.VehicleInformation = dataDto.Body;
+            _testStatusDto.VehicleInformation = String.Concat("VehicleInformationStatus: ", resultVehicleInfo ," Message: ", resultTemporary.Message, " Errors: ", resultTemporary.Errors);
+
             //Assert
             Assert.That(resultTemporary.IsSuccess);
 
@@ -208,6 +220,10 @@ namespace TestVMC.Test.AustraliaSubaru
             };
 
             var resultTemporary = await temporaryController.CreateOrUpdate(dataDto);
+
+            //Add info for logs
+            _testDataDto.VehicleCondition = dataDto.Body;
+            _testStatusDto.VehicleCondition = String.Concat("Message: ", resultTemporary.Message, "\nErrors: ", resultTemporary.Errors);
 
             //Assert
             Assert.IsTrue(resultTemporary.IsSuccess);
@@ -253,12 +269,16 @@ namespace TestVMC.Test.AustraliaSubaru
                 Reject = false,
                 Body = listTemporaryDatum
             };
-            var resultTemporaryDatum = await temporaryController.CreateOrUpdate(dataDto);
+            var resultTemporary = await temporaryController.CreateOrUpdate(dataDto);
+
+            //Add info for logs
+            _testDataDto.VehicleDetails = dataDto.Body;
+            _testStatusDto.VehicleDetails = String.Concat("Message: ", resultTemporary.Message, " Errors: ", resultTemporary.Errors);
 
             //Assert
             Assert.Multiple(() =>
             {
-                Assert.That(resultTemporaryDatum.IsSuccess);
+                Assert.That(resultTemporary.IsSuccess);
                 Assert.That(responseDto.IsSuccess);
             });
         }
@@ -268,6 +288,8 @@ namespace TestVMC.Test.AustraliaSubaru
         {
             //Arrange
             ControllersConfig controllersConfig = new();
+            Response<DataDto> responseDatum = new();
+
 
             TemporaryDatumController temporaryController =
                 await controllersConfig.GetController<TemporaryDatumController>(abbreviation);
@@ -285,12 +307,25 @@ namespace TestVMC.Test.AustraliaSubaru
                 Body = new List<TemporaryDatumDto>()
             };
 
-            var response = await _commonFunctions.ExecuteRules(dataDto);
-            var responseDatum = await temporaryController.CreateOrUpdate(response.Data);
-            await _commonFunctions.ExecuteIntegration(identifier, abbreviation);
-            await _commonFunctions.ConsolePrint(response);
+            var responseRules = await _commonFunctions.ExecuteRules(dataDto);
+            responseDatum = await temporaryController.CreateOrUpdate(responseRules.Data);
+            if (!responseRules.Data.Reject)
+                await _commonFunctions.ExecuteIntegration(identifier, abbreviation);
+
+            //LOGS
+            _testDataDto.RulesAndIntegrations = responseRules.Data.Body;
+            _testStatusDto.RulesAndIntegrations = $"Rule Message: {responseRules.Message}";
+            await _commonFunctions.CreateTestLog(GetProjectName(),responseRules.Data.Reject, _testDataDto, _testStatusDto);
+
             //Asserts
             Assert.That(responseDatum.IsSuccess);
+        }
+
+        private string GetProjectName()
+        {
+            var callingType = new StackTrace().GetFrame(1).GetMethod().DeclaringType;
+            string projectName = callingType.Assembly.GetName().Name;
+            return projectName;
         }
     }
 }

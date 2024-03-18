@@ -28,6 +28,13 @@ namespace TestVMC.Utilities.Common
             RegistryNumber = 5,
             State = 6,
         }
+        public enum AUSBRV
+        {
+            RedBookCode = 48,
+            RegistryNumber = 96,
+            State = 97,
+            Mileage = 116
+        }
 
         public enum FormId
         {
