@@ -1,0 +1,1 @@
+﻿EXEC CompareTables 'QA2602', 'PDN2802', 'Fields', 'field_name';
