@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using AutoMapper;
 using Bogus;
 using Bogus.Bson;
@@ -14,8 +15,7 @@ using ValueMyCar.Services.ApiTemporaryData.Controllers;
 using ValueMyCar.Services.ApiVehicleInformation.Controllers;
 using ValueMyCar.Transversal.Common;
 
-namespace TestVMC.Test.ChileBRV
-
+namespace TestVMC.Test.ColBRV
 {
     public class Tests
     {
@@ -36,9 +36,9 @@ namespace TestVMC.Test.ChileBRV
         public void Setup()
         {
             var configuration = AppConfigurations.LoadConfiguration();
-            abbreviation = configuration.GetSection("ChileBravoauto:Abbreviation").Value;
+            abbreviation = configuration.GetSection("ColombiaBravoauto:Abbreviation").Value;
             _mapper = AppConfigurations.MapperConfig();
-            jsonData = File.ReadAllText("requiredFieldsChile.json");
+            jsonData = File.ReadAllText("requiredFieldsColBRV.json");
             _requireData = JsonConvert.DeserializeObject<DataDto>(jsonData);
         }
 
@@ -152,32 +152,31 @@ namespace TestVMC.Test.ChileBRV
             VehicleInformationController vehicleInformationController = await controlsConfig.GetController<VehicleInformationController>(abbreviation);
             int formId = 3;
             List<int> priceIds = new List<int>();
-            priceIds.Add(228);
-            priceIds.Add(229);
-            priceIds.Add(230);
-            priceIds.Add(232);
+            priceIds.Add(48);
+            priceIds.Add(158);
+
             List<DetailInformationDto> detailInformationDto = new List<DetailInformationDto>();
             VehicleInformationDto vehicleInformationDto = new()
             {
                 FormId = formId,
                 Identifier = identifier,
-                CountryBrandId = 7,
+                CountryBrandId = 5,
                 Body = detailInformationDto
             };
             //Act
             var fields = await fieldsController.GetFields(formId, abbreviation);
             temporaryDatum = _commonFunctions.CompleteFields(fields.Data, _requireData);
 
-            foreach(int id in priceIds)
+            foreach (int id in priceIds)
             {
-                var infoRequiredFields = _requireData.Body.Find(x=> x.FieldId == id);
+                var infoRequiredFields = _requireData.Body.Find(x => x.FieldId == id);
                 DetailInformationDto infoCar = new()
                 {
                     FieldId = id,
                     value = infoRequiredFields.Value
                 };
                 detailInformationDto.Add(infoCar);
-            
+
             }
             var vehiclePrice = await vehicleInformationController.GetVehiclePrices(vehicleInformationDto);
             OkObjectResult okResult = vehiclePrice as OkObjectResult;
@@ -198,14 +197,14 @@ namespace TestVMC.Test.ChileBRV
             //Assert
 
             Assert.Multiple(() =>
-                {
-                    Assert.That(resultTemporaryDatum.IsSuccess);
-                    Assert.That(responseDto.IsSuccess);
+            {
+                Assert.That(resultTemporaryDatum.IsSuccess);
+                Assert.That(responseDto.IsSuccess);
 
-                });
+            });
         }
 
-        [Test,Order(5)]
+        [Test, Order(5)]
         public async Task rulesAndIntegrations()
         {
             //Arrange
@@ -234,7 +233,6 @@ namespace TestVMC.Test.ChileBRV
             //Asserts
             Assert.That(responseDatum.IsSuccess);
         }
-       
 
     }
 }

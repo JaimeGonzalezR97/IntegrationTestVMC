@@ -1,5 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
 	<ItemGroup>
 		<ProjectReference Include="..\TestVMC.Utilities.Common\TestVMC.Utilities.Common.csproj" />
 		<ProjectReference Include="C:\Users\juan.plaza\source\repos\ValueMyCarBackendNewRepo\ValueMyCar.Services.ApiFields\ValueMyCar.Services.ApiFields.csproj" />
@@ -12,7 +11,8 @@
 		<ProjectReference Include="C:\Users\juan.plaza\source\repos\ValueMyCarBackendNewRepo\ValueMyCar.Services.ApiBusinessRule\ValueMyCar.Services.ApiBusinessRule.csproj" />
 		<ProjectReference Include="C:\Users\juan.plaza\source\repos\ValueMyCarBackendNewRepo\ValueMyCar.Services.ApiAdminSteps\ValueMyCar.Services.ApiAdminSteps.csproj" />
 		<ProjectReference Include="C:\Users\juan.plaza\source\repos\ValueMyCarBackendNewRepo\ValueMyCar.Services.ApiAdminFields\ValueMyCar.Services.ApiAdminFields.csproj" />
-	</ItemGroup>	
+	</ItemGroup>
+	
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -31,7 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="requiredFieldsChile.json">
+    <None Update="requiredFieldsPol.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

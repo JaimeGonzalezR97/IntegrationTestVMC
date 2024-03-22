@@ -1,0 +1,60 @@
+{
+  "body": [
+    {
+      "value": "44941",
+      "fieldId": 48,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Excelente",
+      "fieldId": 156,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "1234",
+      "fieldId": 158,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "No, desgaste normal",
+      "fieldId": 159,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "No",
+      "fieldId": 160,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Nuevos",
+      "fieldId": 161,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Sí",
+      "fieldId": 162,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Sí completo, concesionario",
+      "fieldId": 163,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    }
+  ]
+}

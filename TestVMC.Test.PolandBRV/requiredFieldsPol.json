@@ -1,0 +1,221 @@
+{
+  "body": [
+    {
+      "value": "123asd",
+      "fieldId": 183,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Osobowy",
+      "fieldId": 184,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Audi",
+      "fieldId": 185,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "A3",
+      "fieldId": 186,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "4",
+      "fieldId": 187,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "2022",
+      "fieldId": 188,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Sportback, Hatchback, 5 drzwi",
+      "fieldId": 189,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "2020 -",
+      "fieldId": 190,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "5 os.",
+      "fieldId": 191,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "",
+      "fieldId": 192,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Doskonały",
+      "fieldId": 201,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "1234",
+      "fieldId": 203,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Nie - Samochód bezwypadkowy",
+      "fieldId": 204,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Tak - Samochód posiada pełną historię serwisową",
+      "fieldId": 205,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "ws.indicata.com/vivi/v2/{token}/PL/548877::5/valuation{/profiles}?regdate=2022-04{&odometer,condition,vatreclaimable,geopostalcode,georadius}",
+      "fieldId": 206,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Nowy",
+      "fieldId": 207,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Nie - W samochodzie nie pojawiają się żadne kontrolki informacyjne / ostrzegawcze",
+      "fieldId": 208,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Nie",
+      "fieldId": 210,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Juan",
+      "fieldId": 212,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Plaza",
+      "fieldId": 213,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "sebas.16.plaza@gmail.com",
+      "fieldId": 214,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "1232121",
+      "fieldId": 215,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "23-211",
+      "fieldId": 216,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "",
+      "fieldId": 268,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "",
+      "fieldId": 269,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Diesel",
+      "fieldId": 270,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "2.0 30 TDI 85kW 116 k.m. 1968ccm",
+      "fieldId": 271,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Napęd przedni",
+      "fieldId": 272,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "S tronic 7",
+      "fieldId": 273,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Advanced",
+      "fieldId": 274,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    },
+    {
+      "value": "Zielony",
+      "fieldId": 275,
+      "operator": "",
+      "action": "",
+      "messageSf": ""
+    }
+  ]
+}
