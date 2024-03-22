@@ -5,8 +5,10 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using NPOI.HSSF.Record.PivotTable;
 using NuGet.ContentModel;
+using System.Diagnostics;
 using System.Text.Json.Nodes;
 using TestVMC.Utilities.Common;
+using TestVMC.Utilities.Common.Models;
 using ValueMyCar.Application.DTO;
 using ValueMyCar.Services.ApiBusinessRule.Controllers;
 using ValueMyCar.Services.ApiFields.Controllers;
@@ -22,6 +24,8 @@ namespace TestVMC.Test.ChileBRV
         Faker faker = new Faker();
         private DataDto _requireData = new();
         private CommonFunctions _commonFunctions = new CommonFunctions();
+        private TestDataDto _testDataDto = new();
+        private TestStatusDto _testStatusDto = new();
         private string jsonData = "";
         private string abbreviation = "";
         private string identifier = "";
@@ -66,6 +70,10 @@ namespace TestVMC.Test.ChileBRV
             var resultDatum = await temporaryDatum.CreateOrUpdate(formData);
 
 
+            //Add info for logs
+            _testDataDto.ContactInformation = listTemporaryDatum;
+            _testStatusDto.ContactInformation = String.Concat("Message: ", resultDatum.Message, " Errors: ", resultDatum.Errors);
+
             //Assert
             Assert.IsTrue(resultDatum.IsSuccess);
 
@@ -91,6 +99,10 @@ namespace TestVMC.Test.ChileBRV
             formData.Reject = false;
             formData.Body = temporaryData;
             var responseTemporaryDatum = await temporaryDatumController.CreateOrUpdate(formData);
+
+            //Add info for logs
+            _testDataDto.VehicleInformation = formData.Body;
+            _testStatusDto.VehicleInformation = String.Concat( " Message: ", responseTemporaryDatum.Message, " Errors: ", responseTemporaryDatum.Errors);
 
             //Assert
             Assert.IsTrue(responseTemporaryDatum.IsSuccess);
@@ -134,6 +146,10 @@ namespace TestVMC.Test.ChileBRV
             };
 
             var resultTemporary = await temporaryController.CreateOrUpdate(dataDto);
+
+            //Add info for logs
+            _testDataDto.VehicleCondition = dataDto.Body;
+            _testStatusDto.VehicleCondition = String.Concat("Message: ", resultTemporary.Message, "\nErrors: ", resultTemporary.Errors);
 
             //Assert
             Assert.IsTrue(resultTemporary.IsSuccess);
@@ -194,7 +210,9 @@ namespace TestVMC.Test.ChileBRV
 
             var resultTemporaryDatum = await temporaryDatumController.CreateOrUpdate(formData);
 
-
+            //Add info for logs
+            _testDataDto.VehicleDetails = formData.Body;
+            _testStatusDto.VehicleDetails = String.Concat("Message: ", resultTemporaryDatum.Message, " Errors: ", resultTemporaryDatum.Errors);
             //Assert
 
             Assert.Multiple(() =>
@@ -205,7 +223,7 @@ namespace TestVMC.Test.ChileBRV
                 });
         }
 
-        [Test,Order(5)]
+        [Test, Order(5)]
         public async Task rulesAndIntegrations()
         {
             //Arrange
@@ -229,12 +247,26 @@ namespace TestVMC.Test.ChileBRV
 
             var response = await _commonFunctions.ExecuteRules(dataDto);
             var responseDatum = await temporaryController.CreateOrUpdate(response.Data);
-            await _commonFunctions.ExecuteIntegration(identifier, abbreviation);
-            await _commonFunctions.ConsolePrint(response);
+            if (!response.Data.Reject)
+            {
+                await _commonFunctions.ExecuteIntegration(identifier, abbreviation);
+            }
+            
+
+            //LOGS
+            _testDataDto.RulesAndIntegrations = response.Data.Body;
+            _testStatusDto.RulesAndIntegrations = $"Rule Message: {response.Message}";
+            await _commonFunctions.CreateTestLog(GetProjectName(), response.Data.Reject, _testDataDto, _testStatusDto);
             //Asserts
             Assert.That(responseDatum.IsSuccess);
         }
-       
+
+        private string GetProjectName()
+        {
+            var callingType = new StackTrace().GetFrame(1).GetMethod().DeclaringType;
+            string projectName = callingType.Assembly.GetName().Name;
+            return projectName;
+        }
 
     }
 }

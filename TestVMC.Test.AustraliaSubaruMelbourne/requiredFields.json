@@ -5,103 +5,56 @@
   "statusForm": true,
   "reject": false,
   "body": [
-
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "123asd",
-      "fieldId": 227,
-      "operator": "",
-      "action": "",
-      "messageSf": ""
-    },
-    {
-      "value": "2015",
-      "fieldId": 228,
-========
       "value": "abc123",
       "fieldId": 5,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "BYD",
-      "fieldId": 229,
-========
       "value": "VIC",
       "fieldId": 6,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "F3",
-      "fieldId": 230,
-========
       "value": "Alpine",
       "fieldId": 7,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "Negro",
-      "fieldId": 231,
-========
       "value": "D-MAX",
       "fieldId": 8,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "1.5 GSI EURO5 MT 4P",
-      "fieldId": 232,
-========
       "value": "2013",
       "fieldId": 9,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "Excelente",
-      "fieldId": 242,
-========
       "value": "Cab Chassis",
       "fieldId": 10,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "1234",
-      "fieldId": 244,
-========
       "value": "Manual",
       "fieldId": 11,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "No, desgaste normal",
-      "fieldId": 245,
-========
       "value": "Diesel",
       "fieldId": 12,
       "operator": "",
@@ -160,101 +113,41 @@
     {
       "value": "No",
       "fieldId": 30,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
       "value": "No",
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "fieldId": 246,
-========
       "fieldId": 32,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "Nuevos",
-      "fieldId": 247,
-========
       "value": "jaime.gonzalez@inchcape.com",
       "fieldId": 36,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "No",
-      "fieldId": 248,
-========
       "value": "2134568798",
       "fieldId": 37,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "Sí completo, concesionario",
-      "fieldId": 249,
-========
       "value": "811",
       "fieldId": 38,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
     },
     {
-<<<<<<<< HEAD:TestVMC.Test.ChileBRV/requiredFieldsChile.json
-      "value": "Juan",
-      "fieldId": 251,
-      "operator": "",
-      "action": "",
-      "messageSf": ""
-    },
-    {
-      "value": "Plaza",
-      "fieldId": 252,
-      "operator": "",
-      "action": "",
-      "messageSf": ""
-    },
-    {
-      "value": "54234332-k",
-      "fieldId": 253,
-      "operator": "",
-      "action": "",
-      "messageSf": ""
-    },
-    {
-      "value": "sebas.16.plaza@gmail.com",
-      "fieldId": 254,
-      "operator": "",
-      "action": "",
-      "messageSf": ""
-    },
-    {
-      "value": "12782066",
-      "fieldId": 255,
-      "operator": "",
-      "action": "",
-      "messageSf": ""
-    },
-    {
-      "value": "bogota",
-      "fieldId": 256,
-========
       "value": "AUVISUZ2013AEGB",
       "fieldId": 48,
->>>>>>>> feature/Nunit_JaimeGonzalez:TestVMC.Test.AustraliaSubaruMelbourne/requiredFields.json
       "operator": "",
       "action": "",
       "messageSf": ""
